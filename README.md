@@ -15,7 +15,7 @@ python portscan.py
 ## Como funciona
 O script utiliza a biblioteca socket do Python para criar um socket e estabelecer uma conexão com o host. Em seguida, ele tenta se conectar em cada porta da lista de portas definida no código.
 
-Se a porta estiver aberta, o script exibe a mensagem "ABERTA". Caso contrário, exibe a mensagem "FECHADA".
+Se a porta estiver aberta, o script exibe a mensagem __"ABERTA"__. Caso contrário, exibe a mensagem __"FECHADA"__.
 
 ## Aviso
-O uso deste script é de inteira responsabilidade do usuário. Certifique-se de que está autorizado a escanear o host antes de executar o script. O autor não se responsabiliza pelo uso indevido do script.
+__O uso deste script é de inteira responsabilidade do usuário. Certifique-se de que está autorizado a escanear o host antes de executar o script. O autor não se responsabiliza pelo uso indevido do script.__
