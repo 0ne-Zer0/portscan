@@ -6,14 +6,14 @@ Este é um pequeno projeto de portscan escrito em Python para fins de aprendizag
 Faça o download do código-fonte ou clone este repositório em sua máquina.
 
 - Abra um terminal na pasta do projeto e execute o seguinte comando:
-python portscan.py
+__python portscan.py__
 
 - Insira o endereço do host que você deseja escanear.
 
 - O script iniciará o escaneamento das portas definidas no código e exibirá o resultado na tela.
 
 ## Como funciona
-O script utiliza a biblioteca socket do Python para criar um socket e estabelecer uma conexão com o host. Em seguida, ele tenta se conectar em cada porta da lista de portas definida no código.
+O script utiliza a biblioteca __"socket"__ do Python para criar um socket e estabelecer uma conexão com o host. Em seguida, ele tenta se conectar em cada porta da lista de portas definida no código.
 
 Se a porta estiver aberta, o script exibe a mensagem __"ABERTA"__. Caso contrário, exibe a mensagem __"FECHADA"__.
 
